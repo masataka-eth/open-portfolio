@@ -1,61 +1,163 @@
 {
-  "name": "John Doe",
-  "title": "フルスタックエンジニア / ブロックチェーンエンジニア / テックリード",
-  "profileImageUrl": "",
-  "email": "open-portfolio-demo@bedev.site",
+  "name": "Masataka Mayuzumi",
+  "title": "プロダクトマネージャー / ブロックチェーンエンジニア",
+  "profileImageUrl": "https://data.cryptoninjapartners.com/images/12818.png",
+  "email": "epinanko@gmail.com",
   "location": "日本",
-  "githubUsername": "open-portfolio-demo-bedev-site",
-  "contactFormUrl": "https://open-portfolio-demo.bedev.site/contact",
+  "githubUsername": "masataka-eth",
+  "contactFormUrl": "",
   "qiitaUserName": "",
   "experience": [
     {
-      "name": "ネットワーク & DB",
+      "name": "プログラミング",
       "skills": {
-        "設計・構築": "1年～3年",
-        "運用・保守": "1年～3年"
+        "Solidity": "3年以上",
+        "Node.js": "3年以上",
+        "TypeScript": "3年以上",
+        "Python": "1年～3年",
+        "Vue.js (React)": "3年以上",
+        "C#.NET": "3年以上",
+        "ASP.NET": "3年以上"
       }
     },
     {
-      "name": "プログラミング",
+      "name": "データベース",
       "skills": {
-        "PHP": "1年～3年",
-        "Go": "1年～3年",
-        "JavaScript": "1年～3年",
-        "TypeScript": "1年～3年",
-        "SQL": "1年～3年",
-        "Python": "1年未満"
+        "SQLServer": "3年以上",
+        "MySQL": "3年以上",
+        "PostgreSQL": "3年以上",
+        "Firestore": "1年～3年",
+        "Supabase": "1年未満"
+      }
+    },
+    {
+      "name": "クラウド",
+      "skills": {
+        "Azure": "3年以上",
+        "AWS": "3年以上",
+        "GCP": "1年～3年"
+      }
+    },
+    {
+      "name": "AI",
+      "skills": {
+        "OpenAI": "1年～3年",
+        "Gemini": "1年未満",
+        "Cloud Vision": "1年未満",
+        "Dify": "1年未満"
+      }
+    },
+    {
+      "name": "マネジメント",
+      "skills": {
+        "PM（プロジェクトマネージャー）": "10年以上",
+        "PdM(プロダクトマネージャー)": "3年以上",
+        "BizDev(ビジネス開発)": "1年～3年"
       }
     }
   ],
   "workHistory": [
     {
       "order": 1,
-      "period": "2024/1〜",
-      "projectName": "ブロックチェーンを活用した認証システム",
-      "responsibilities": "システム設計 / インフラ / フロントエンド / バックエンド",
-      "teamSize": "1 ~ 3人",
-      "environment": "GCP / typescript",
-      "frameworks": "solidity, alchemy, thirdweb, ERC-721, ERC-20, Nextjs",
-      "description": "分散型認証を可能にするシステムを開発。"
+      "period": "2023/10〜現在",
+      "projectName": "AI/ブロックチェーン事業開発",
+      "responsibilities": "プロジェクトマネージャー / ブロックチェーン開発",
+      "teamSize": "スタートアップ",
+      "environment": "AI/ブロックチェーン",
+      "frameworks": "Solidity, OpenAI, Gemini, Node.js, TypeScript",
+      "description": "OCT-PATHにてAI/ブロックチェーン関連の事業開発を担当"
     },
     {
       "order": 2,
-      "period": "2025/2〜",
-      "projectName": "サブスク型ECシステムの構築",
-      "responsibilities": "システム設計 / インフラ / フロントエンド / バックエンド",
-      "teamSize": "1 ~ 3人",
-      "environment": "GCP / typescript",
-      "frameworks": "Nextjs, PostgreSQL, Stripe, TailwindCSS, Shadcn/ui",
-      "description": "サブスク型ECシステムを開発。"
+      "period": "2023/6〜2023/9",
+      "projectName": "NFTシステム開発",
+      "responsibilities": "プロジェクトマネージャー / NFT開発",
+      "teamSize": "スタートアップ",
+      "environment": "Web3/ブロックチェーン",
+      "frameworks": "Solidity, Node.js, TypeScript",
+      "description": "80&Companyにてブロックチェーン・NFT関連のシステム開発を担当"
+    },
+    {
+      "order": 3,
+      "period": "2006/4〜2023/5",
+      "projectName": "ソフトウェア・情報処理",
+      "responsibilities": "プロジェクトマネージャー / システム開発",
+      "teamSize": "中小企業",
+      "environment": "多様なシステム環境",
+      "frameworks": "C#.NET, ASP.NET, 各種データベース, クラウド技術",
+      "description": "高崎共同計算センターにて17年間、多様なプロジェクトのマネジメントと開発を担当"
     }
   ],
   "projects": [
     {
-      "title": "Dummy Project",
-      "description": "AIを活用したダミーサービス。",
-      "imageUrl": "/products/default.jpg",
-      "url": "https://open-portfolio-demo.bedev.site",
-      "technologies": "Next.js, 生成AI, PostgreSQL, Vercel, Googleログイン"
+      "title": "SakeWorld NFT",
+      "description": "NFTマーケットプレイス開発のPM・スマートコントラクト開発を担当",
+      "imageUrl": "/products/1.jpg",
+      "url": "https://nft.sakeworld.jp/",
+      "technologies": "Solidity, Web3, NFT, ブロックチェーン"
+    },
+    {
+      "title": "SOGO SEIBU NFT",
+      "description": "NFTマーケットプレイス開発のスマートコントラクト開発を担当",
+      "imageUrl": "/products/2.jpg",
+      "url": "https://nft.sogo-seibu.jp/",
+      "technologies": "Solidity, Web3, NFT, ブロックチェーン"
+    },
+    {
+      "title": "ERC721Lockable",
+      "description": "ERC721のロック機能を追加した独自コントラクトのOSS開発",
+      "imageUrl": "/products/3.jpg",
+      "url": "https://nft-media.net/nft-production/nft-app-pandalock/28313/",
+      "technologies": "NFT, Solidity, セキュリティ, ブロックチェーン"
+    },
+    {
+      "title": "PandaLock",
+      "description": "盗難防止NFT独自規格を日本初に実装したNFTシステムの開発",
+      "imageUrl": "/products/4.jpg",
+      "url": "https://app-pandalock.web.app/",
+      "technologies": "NFT, Solidity, セキュリティ, ブロックチェーン"
+    },
+    {
+      "title": "Honda LogR",
+      "description": "ホンダ社スマホアプリのPM（iOS,Android）およびクラウド構築を担当",
+      "imageUrl": "/products/5.jpg",
+      "url": "https://global.honda/jp/tech/Honda_LogR/",
+      "technologies": "iOS, Android, クラウド"
+    },
+    {
+      "title": "スマートファクトリープロジェクト",
+      "description": "豊田自動織機社のPM（IoTシステム）を担当。フォークリストをクラウド接続させIoT活用",
+      "imageUrl": "/products/6.jpg",
+      "url": "https://news.microsoft.com/ja-jp/2018/03/14/blog-azure-iot-toyota-shokki/",
+      "technologies": "Azure, IoT, クラウド"
+    },
+    {
+      "title": "日本語コミュニケーションテスト",
+      "description": "ベネッセ社スマホアプリのPM（iOS,Android）およびクラウド構築を担当",
+      "imageUrl": "/products/7.jpg",
+      "url": "https://play.google.com/store/apps/details?id=jp.co.benesse.japanesecommunicationtest_Android&hl=ja",
+      "technologies": "iOS, Android, 教育, クラウド"
+    },
+    {
+      "title": "学問サキドリプログラム",
+      "description": "進研アド社WebサイトのPMを担当。毎年数万人ユーザーが増えるクラウドインフラも構築",
+      "imageUrl": "/products/8.jpg",
+      "url": "https://shinken-ad.co.jp/service/solutions/remedial01.html",
+      "technologies": "Web開発, クラウドインフラ, 教育"
+    },
+    {
+      "title": "リベートシステム",
+      "description": "自社パッケージの顧客向けカスタマイズ開発PMを担当。ベイシアグループなど大手小売向けに構築",
+      "imageUrl": "/products/9.jpg",
+      "url": "https://www.itecinc.jp/solutions/rebate/",
+      "technologies": "オンプレミス, プライベートクラウド, 小売業"
+    },
+    {
+      "title": "ラジオアプリ",
+      "description": "地方ラジオ局向けスマホアプリのPM（iOS、Android）およびストリーミングサーバー構築を担当",
+      "imageUrl": "/products/10.jpg",
+      "url": "http://www.takasaki.fm/app/",
+      "technologies": "iOS, Android, ストリーミング, メディア"
     }
   ]
 }
